@@ -1,4 +1,2 @@
 rasa
 nest_asyncio
-rasa-x --extra-index-url https://pypi.rasa.com/simple
-
