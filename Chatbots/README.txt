@@ -2,7 +2,7 @@
 
 Before installing the needed libraries and packages, make sure you have pip3 (or pip) available at your OS. 
 
-1. reate virtualenv (virtual environment) names as "venv" :
+1. create virtualenv (virtual environment) named as "venv" :
 
 https://sourabhbajaj.com/mac-setup/Python/virtualenv.html
 
@@ -18,10 +18,9 @@ pip3 install -r requirements.txt
 
 pip3 install rasa-x --extra-index-url https://pypi.rasa.com/simple
 
-5. Type "rasa x" and local mode for rasa will be opened in your web browser.
+5. Enter "my_rasa" folder and type "rasa x" and local mode for rasa will be opened in your web browser at 5005 port.
 
-6. Return to Chatbots folder and type "jupyter notebook" (open another shell window as 2 local host api cant be opened at the same time). 
-
+6. Open another shell window and type "rasa run actions" to run action server at 5055 port.
 
 
 */ ---------------------------- */

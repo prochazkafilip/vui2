@@ -61,9 +61,9 @@ responses:
   utter_faq_status:
   - text: LIVE Coronavirus Pandemic -  Real Time Counter, World Map, News at [ ]{link}
   utter_faq_whatisit:
-  - text: Whatisit
+  - text: 👷🏼‍♀️ Ooops. We are still working on relevant answers to this question.
   utter_faq_vaccine:
-  - text: Vaccine
+  - text: 👷🏼‍♀️ Ooops. We are still working on relevant answers to this question.
 actions:
 - action_faq_spread
 - action_faq_symptoms

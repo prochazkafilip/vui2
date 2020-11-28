@@ -232,35 +232,19 @@
 - What does Coronavirus do?
 - How does human body behave if i get coronavirus?
 
-## intent:faq_vaccine
-- am i immune once i've been vaccinated?
-- are inoculations available?
-- are they researching vaccines?
-- are they working on vaccines?
-- can covid be cured?
-- can i be vaccinated?
-- can inoculation protect you from coronavirus?
-- can researching make a vaccine?
-- can vaccines protect you from corona?
-- can you be inoculated against the virus?
-- can you be inoculated?
-- can you be vaccinated to protect you from covid-19?
-- can you be vaccinated?
-- can you get vaccinated?
-- how can i be vaccinated?
-- how does vaccine research work
-- how long will it take to develop a vaccine?
-- how long will it take to develop inoculation?
-- how long will it take to research a vaccine?
-- is a vaccine being developed?
-- is there a cure?
-- is there a vaccine against coronavirus?
-- is there si cure for covid-19?
-- what does herd immunity mean?
-- what is herd immunity?
-- what is inoculation?
-- when can we expected a vaccine?
-- when will inoculations be available?
+## intent:faq_status
+- what is the current status
+- give me live count
+- live counter
+- world map counter
+- how many are confirmed cases
+- give me real time status updates
+- how many have recovered cases
+- give me live stats of corona
+- show me graph of current situation
+- give me live information
+- live news of corona
+- latest stats updates for corona
 
 ## intent:faq_spread
 - can coronavirus spread by coughing?
@@ -318,6 +302,36 @@
 - why shouldn't i touch my face?
 - what happens if i get corona
 
+## intent:faq_vaccine
+- am i immune once i've been vaccinated?
+- are inoculations available?
+- are they researching vaccines?
+- are they working on vaccines?
+- can covid be cured?
+- can i be vaccinated?
+- can inoculation protect you from coronavirus?
+- can researching make a vaccine?
+- can vaccines protect you from corona?
+- can you be inoculated against the virus?
+- can you be inoculated?
+- can you be vaccinated to protect you from covid-19?
+- can you be vaccinated?
+- can you get vaccinated?
+- how can i be vaccinated?
+- how does vaccine research work
+- how long will it take to develop a vaccine?
+- how long will it take to develop inoculation?
+- how long will it take to research a vaccine?
+- is a vaccine being developed?
+- is there a cure?
+- is there a vaccine against coronavirus?
+- is there si cure for covid-19?
+- what does herd immunity mean?
+- what is herd immunity?
+- what is inoculation?
+- when can we expected a vaccine?
+- when will inoculations be available?
+
 ## intent:faq_whatisit
 - how are viruses formed?
 - how are viruses structured?
@@ -364,20 +378,6 @@
 - Do you know what is covid?
 - What is corona?
 - what is corona
-
-## intent:faq_status
-- what is the current status
-- give me live count
-- live counter
-- world map counter
-- how many are confirmed cases
-- give me real time status updates
-- how many have recovered cases
-- give me live stats of corona
-- show me graph of current situation
-- give me live information
-- live news of corona
-- latest stats updates for corona
 
 ## synonym:child
 - kid
