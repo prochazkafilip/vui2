@@ -1,0 +1,70 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- None
+- smalltalk_human
+- faq_distancing
+- faq_symptoms
+- faq_spread
+- faq_status
+- faq_whatisit
+- faq_vaccine
+responses:
+  utter_greet:
+  - image: https://m.economictimes.com/thumb/msid-76258442,width-1200,height-900,resizemode-4,imgsize-102340/japan-robot-retu.jpg
+    text: Hi! I am bot for UI2 class with covid-19 related questions.
+  utter_smalltalk_human:
+  - text: I am not going to pretend that I am a real human. I am robot.
+  utter_moderate_conversation:
+  - text: Please, ask only questions related to covid-19 topic😎.
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_did_that_help:
+  - buttons:
+    - payload: Yes, thank you!
+      title: 👍
+    - payload: No, I am sorry...
+      title: 👎
+    text: Did that help you?
+  utter_happy:
+  - text: Great, carry on! 🙂
+  utter_goodbye:
+  - text: Bye 👋 . Do not hesitate to talk to me again!
+  utter_sad:
+  - text: I appreciate your honesty, and Im sorry 😔
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_faq_distancing:
+  - image: https://www.covidoumedicine.com/images/content/covid-19-curves.gif
+    text: Social distancing is a public health practice that aims to prevent sick
+      people from coming in close contact with healthy people in order to reduce opportunities
+      for disease transmission. It can include large-scale measures like canceling
+      group events or closing public spaces, as well as individual decisions such
+      as avoiding crowds. Learn more about social distancing.
+  utter_faq_spread:
+  - text: Take steps to lower your risk of getting sick with COVID-19. Here are some
+      things you should do. 6 Steps to Prevent COVID-19 at [ ]{link}
+  utter_faq_symptoms:
+  - text: People with COVID-19 generally develop signs and symptoms, including mild
+      respiratory symptoms and fever, on an average of 5-6 days after infection (mean
+      incubation period 5-6 days, range 1-14 days). Most people infected with COVID-19
+      virus have mild disease and recover. COVID-19 Animation - What Happens If You
+      Get Coronavirus? Watch at [ ]{link}
+  utter_faq_status:
+  - text: LIVE Coronavirus Pandemic -  Real Time Counter, World Map, News at [ ]{link}
+  utter_faq_whatisit:
+  - text: 👷🏼‍♀️ Ooops. We are still working on relevant answers to this question.
+  utter_faq_vaccine:
+  - text: 👷🏼‍♀️ Ooops. We are still working on relevant answers to this question.
+actions:
+- action_faq_spread
+- action_faq_symptoms
+- action_faq_status
