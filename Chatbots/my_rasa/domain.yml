@@ -64,6 +64,8 @@ responses:
   - text: 👷🏼‍♀️ Ooops. We are still working on relevant answers to this question.
   utter_faq_vaccine:
   - text: 👷🏼‍♀️ Ooops. We are still working on relevant answers to this question.
+  utter_default:
+  - text: I'm sorry, I didn't quite understand that. Could you rephrase?
 actions:
 - action_faq_spread
 - action_faq_symptoms
